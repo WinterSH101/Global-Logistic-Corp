@@ -22,5 +22,47 @@ public class Main {
         System.out.println("New York to Miami:" + graph.dfs("New York", "Miami"));
 
         System.out.println("Delivery network created!");
+
+        System.out.println("\nPhase 4:Testing");
+        //Test 1: Connected cities
+        System.out.println("Chicago to Seattle:");
+        System.out.println("BFS:" + graph.bfs("Chicago", "Seattle"));
+        System.out.println("DFS:" + graph.dfs("Chicago", "Seattle"));
+
+        //Test 2: Unreachable city
+        System.out.println("\nMiami to Denver:");
+        System.out.println("BFS:" + graph.bfs("Miami", "Denver"));
+        System.out.println("DFS:" + graph.dfs("Miami", "Denver"));
+
+        //Test 3: Two connected cities
+        WeightGraph<String> smallGraph = new WeightGraph<>();
+
+        smallGraph.addVertex("City A");
+        smallGraph.addVertex("City B");
+        smallGraph.addEdge("City A", "City B", 50);
+
+        System.out.println("\nTwo-City Graph:");
+        System.out.println("BFS:" + smallGraph.bfs("City A", "City B"));
+        System.out.println("DFS:" + smallGraph.dfs("City A", "City B"));
+
+        //Test 4 Different traversal paths
+        WeightGraph<String> pathGraph = new WeightGraph<>();
+
+        pathGraph.addVertex("A");
+        pathGraph.addVertex("B");
+        pathGraph.addVertex("C");
+        pathGraph.addVertex("D");
+        pathGraph.addVertex("E");
+
+        pathGraph.addEdge("A", "B", 10);
+        pathGraph.addEdge("B", "C", 10);
+        pathGraph.addEdge("C", "D", 10);
+        pathGraph.addEdge("A", "E", 10);
+        pathGraph.addEdge("E", "D", 10);
+
+        System.out.println("\nAlternative Paths:");
+        System.out.println("BFS:" + pathGraph.bfs("A", "D"));
+        System.out.println("DFS:" + pathGraph.dfs("A", "D"));
+
     }
 }
