@@ -14,7 +14,9 @@ public class Main {
         graph.addEdge("Denver", "Los Angeles", 200);
         graph.addEdge("Denver", "Seattle", 180);
         graph.addEdge("Los Angeles", "Seattle", 120);
-        
+        System.out.println("\nBFS Connectivity");
+        System.out.println("New York to Los Angeles:" + graph.bfs("New York", "Los Angeles"));
+        System.out.println("New York to Miami:" + graph.bfs("New York", "Miami"));
 
         System.out.println("Delivery network created!");
     }

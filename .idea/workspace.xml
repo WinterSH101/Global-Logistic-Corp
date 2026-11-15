@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61990c9b-b672-45f5-9f71-9dca09328694" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Global Logistic Corp/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Global Logistic Corp/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Global Logistic Corp/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Global Logistic Corp/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Global Logistic Corp/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Global Logistic Corp/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Global Logistic Corp/Global Logistic Corp..iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Global Logistic Corp/Journal.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Global Logistic Corp/src/WeightGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Global Logistic Corp/src/main.java" afterDir="false" />
+    <list default="true" id="61990c9b-b672-45f5-9f71-9dca09328694" name="Changes" comment="Phase 1 Complete">
+      <change afterPath="$PROJECT_DIR$/../Global Logistic Corp/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Global Logistic Corp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Global Logistic Corp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Global Logistic Corp/src/WeightGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Global Logistic Corp/src/WeightGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Global Logistic Corp/src/main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,61 +34,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000030558390716" />
-      <entry key="MS500" value="1.0790134735713164" />
-      <entry key="S2" value="1.8020629094352985" />
-      <entry key="S5" value="4.0610711402299025" />
-      <entry key="S10" value="8.455606996113893" />
-      <entry key="S30" value="24.435352506580347" />
-      <entry key="S60" value="37.64172971977213" />
-      <entry key="M2" value="49.09459404363058" />
-      <entry key="M5" value="64.7773023805227" />
-      <entry key="M10" value="79.07290207436259" />
-      <entry key="M15" value="86.85953406017848" />
-      <entry key="M30" value="97.17090727994233" />
-      <entry key="H1" value="103.56934005597992" />
-      <entry key="H2" value="107.144576342533" />
-      <entry key="H4" value="109.03577371263205" />
-      <entry key="D1" value="110.66742557219017" />
-      <entry key="W1" value="110.95236017998559" />
+      <entry key="MS100" value="1.6544513252989677" />
+      <entry key="MS500" value="3.2025746859820603" />
+      <entry key="S2" value="4.300352806191199" />
+      <entry key="S5" value="5.174177137996178" />
+      <entry key="S10" value="6.422095555116689" />
+      <entry key="S30" value="12.84631447754692" />
+      <entry key="S60" value="22.34826999922632" />
+      <entry key="M2" value="32.616475983656294" />
+      <entry key="M5" value="43.37667316628604" />
+      <entry key="M10" value="55.39953845736032" />
+      <entry key="M15" value="69.37139023116772" />
+      <entry key="M30" value="104.48411740159037" />
+      <entry key="H1" value="140.44432880764688" />
+      <entry key="H2" value="166.7457356981899" />
+      <entry key="H4" value="182.7358284059516" />
+      <entry key="D1" value="197.78416870838507" />
+      <entry key="W1" value="200.53619392662583" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="1.2367886310601206E-242" />
-      <entry key="S2" value="3.334831315884746E-61" />
-      <entry key="S5" value="6.445109916144854E-25" />
-      <entry key="S10" value="8.043229991407803E-13" />
-      <entry key="S30" value="1.1120502565525122E-4" />
-      <entry key="S60" value="0.0160102213790027" />
-      <entry key="M2" value="0.23891062003359995" />
-      <entry key="M5" value="1.6813182549197696" />
-      <entry key="M10" value="3.708092362926759" />
-      <entry key="M15" value="4.929334648208747" />
-      <entry key="M30" value="6.624629654075759" />
-      <entry key="H1" value="7.711143227391392" />
-      <entry key="H2" value="8.327904834093273" />
-      <entry key="H4" value="8.656713502287472" />
-      <entry key="D1" value="8.941751552104309" />
-      <entry key="W1" value="8.99165308771031" />
+      <entry key="MS500" value="3.492611449666497E-107" />
+      <entry key="S2" value="2.431014606975284E-27" />
+      <entry key="S5" value="2.261075308111289E-11" />
+      <entry key="S10" value="4.755076558911836E-6" />
+      <entry key="S30" value="0.016815870289886185" />
+      <entry key="S60" value="0.12985790448625728" />
+      <entry key="M2" value="0.3934375914972844" />
+      <entry key="M5" value="1.6229725867223526" />
+      <entry key="M10" value="4.517761870234907" />
+      <entry key="M15" value="7.220079824594538" />
+      <entry key="M30" value="12.786208255924326" />
+      <entry key="H1" value="17.88220024865928" />
+      <entry key="H2" value="21.45329506254082" />
+      <entry key="H4" value="23.58704661412286" />
+      <entry key="D1" value="25.57672507512726" />
+      <entry key="W1" value="25.938990764911225" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.024180833474074525" />
-      <entry key="MS500" value="0.5171060819315035" />
-      <entry key="S2" value="1.5538812242643865" />
-      <entry key="S5" value="3.938251253759252" />
-      <entry key="S10" value="8.386657403172126" />
-      <entry key="S30" value="24.406807246512546" />
-      <entry key="S60" value="37.638223610340766" />
-      <entry key="M2" value="49.30761604482518" />
-      <entry key="M5" value="66.3987605308349" />
-      <entry key="M10" value="82.71653029194162" />
-      <entry key="M15" value="91.73258544890385" />
-      <entry key="M30" value="103.7584544844333" />
-      <entry key="H1" value="111.25915318057703" />
-      <entry key="H2" value="115.46103611915682" />
-      <entry key="H4" value="117.68655835120035" />
-      <entry key="D1" value="119.60815931119359" />
-      <entry key="W1" value="119.94386712569585" />
+      <entry key="MS100" value="1.5932245419096094" />
+      <entry key="MS500" value="3.107855054237006" />
+      <entry key="S2" value="4.038039711020754" />
+      <entry key="S5" value="4.918367418758529" />
+      <entry key="S10" value="6.188241002089678" />
+      <entry key="S30" value="12.724303270608866" />
+      <entry key="S60" value="22.386052282558968" />
+      <entry key="M2" value="32.947237706221735" />
+      <entry key="M5" value="44.96159246912491" />
+      <entry key="M10" value="59.882168412838034" />
+      <entry key="M15" value="76.55378433222823" />
+      <entry key="M30" value="117.23287751345754" />
+      <entry key="H1" value="158.2980166702143" />
+      <entry key="H2" value="188.1811365129724" />
+      <entry key="H4" value="206.3128121068331" />
+      <entry key="D1" value="223.3590406072324" />
+      <entry key="W1" value="226.47491533911438" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -108,6 +102,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -119,13 +115,28 @@
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propCompiler",
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Global Logistic Corp." />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -146,5 +157,14 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Formating" />
+    <MESSAGE value="Phase 1 Complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Phase 1 Complete" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
