@@ -73,5 +73,36 @@ public class WeightGraph <T> {
         }
         return false;
     }
+    public boolean dfs(T start, T end) {
+        int startIndex = vertices.indexOf(start);
+        int endIndex = vertices.indexOf(end);
+
+        if (startIndex == -1 || endIndex == -1) {
+            return false;
+        }
+        boolean[] visited = new boolean[vertices.size()];
+        Stack<Integer> stack = new Stack<>();
+
+        stack.push(startIndex);
+
+        while (!stack.isEmpty()) {
+            int current = stack.pop();
+
+            if (visited[current]) {
+                continue;
+            }
+            visited[current] = true;
+            if (current == endIndex) {
+                return true;
+            }
+            for (int i = 0; i < vertices.size(); i++) {
+                if (matrix[current][i] != -1
+                && !visited[i]){
+                    stack.push(i);
+                }
+            }
+        }
+        return false;
+    }
 }
 

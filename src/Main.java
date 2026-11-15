@@ -17,6 +17,9 @@ public class Main {
         System.out.println("\nBFS Connectivity");
         System.out.println("New York to Los Angeles:" + graph.bfs("New York", "Los Angeles"));
         System.out.println("New York to Miami:" + graph.bfs("New York", "Miami"));
+        System.out.println("\nDFS Connectivity");
+        System.out.println("New York to Los Angeles:" + graph.dfs("New York", "Los Angeles"));
+        System.out.println("New York to Miami:" + graph.dfs("New York", "Miami"));
 
         System.out.println("Delivery network created!");
     }

@@ -6,4 +6,6 @@ I choose an adjacency matrix because it's simple to use for a small number of ci
 ## Phase 2
 BFS uses a queue to check cities in the order they are discovered. It starts with the closet connections before moving farther away. This helps the program search the network level by level without skipping any reachable cities.
 <br><br>
-##
+## Phase 3
+The main difference is that BFS uses a queue while DFS uses a stack. BFS checks nearby cities first, while DFS follows one path as far as possible before going back to explore another. Both can find connections, but they search in different ways.
+<br><br>
